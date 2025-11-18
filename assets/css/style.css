@@ -1776,7 +1776,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
-    z-index: 1;
   }
 
   .sidebar-info { flex-direction: column; }
