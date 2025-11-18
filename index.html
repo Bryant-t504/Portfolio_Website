@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryant//Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/new me.jpg" alt="Om Kharche" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Om Kharche">Brian Wasike</h1>
+
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:brianwasike504@gmail.com" class="contact-link" target="_blank" rel="noopener noreferrer">brianwasike504@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+254 7270 89530" class="contact-link" target="_blank" rel="noopener noreferrer">+254 7279 09530</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">2 May, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kitale, Kenya</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/me/" class="social-link" target="_blank" rel="noopener noreferrer"> 
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/brianwasike504" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/bryant_tec3/#" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Case-studies</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+      <p>
+        Hi! I'm <strong>Bryan Wasike</strong>, a Full Stack Developer and UI/UX Designer based in Kisii, Kenya. I'm currently pursuing a BSc in Information Technology at Kisii University (2023 — 2027). I specialize in creating functional, responsive, and visually appealing websites and apps.
+      </p>
+
+      <p>
+        I love turning complex problems into simple, elegant solutions. Whether it’s web development, UI/UX design, or building mobile apps, my goal is to deliver products that are user-friendly, intuitive, and eye-catching. I’ve worked on projects for local businesses and personal ventures, honing my skills in HTML, CSS, JavaScript, React, WordPress, and Python.
+      </p>
+    </section>
+
+
+
+        <!--
+          - service
+        -->
+
+       <section class="service">
+          <h3 class="h3 service-title">What I do</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="UI/UX Design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+                <p class="service-item-text">Designing intuitive and user-friendly interfaces for web and mobile apps.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web Development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">Building responsive, fast, and maintainable websites using modern tech stacks.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Mobile App icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Apps</h4>
+                <p class="service-item-text">Developing cross-platform mobile apps for iOS and Android.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/art-pc-ui-svgrepo-com.svg" alt="WordPress icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+                <p class="service-item-text">Turning ideas into memorable visuals that actually hit.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials" style="display: none;">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>John Doe</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Brian was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+       
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+         <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Kisii University</h4>
+              <span>2023 — 2027</span>
+              <p class="timeline-text">BSc Information Technology. Focused on full stack web development, UI/UX design, and database management.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">High School</h4>
+              <span>2018 — 2022</span>
+              <p class="timeline-text">Graduated with focus in computer science and mathematics.</p>
+            </li>
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+              <span>2024 — Present</span>
+              <p class="timeline-text">Built responsive websites and web apps for local businesses using HTML, CSS, JavaScript, React, and WordPress.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Food Recipe App Project</h4>
+              <span>2024</span>
+              <p class="timeline-text">Designed and developed a functional web application for searching and filtering recipes. Integrated API and interactive UI.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">HTML & CSS</h5>
+              <data value="90">90%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">JavaScript / React</h5>
+              <data value="80">80%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Python / SQL</h5>
+              <data value="70">70%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">WordPress / CMS</h5>
+              <data value="75">75%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+          </li>
+        </ul>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/bryant-tech/food-recipe-app" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Food Recipe App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Food Recipe App</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://bryant-tech.github.io/booking-website/" target="_blank" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Travel Booking Website" loading="lazy">
+                </figure>
+                <h3 class="project-title">Travel Booking Website</h3>
+                <p class="project-category">Web design & development</p>
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #case-studies
+      -->
+
+      <article class="case-studies" data-page="case-studies">
+
+        <header>
+          <h2 class="h2 article-title">Case-Studies</h2>
+        </header>
+
+        <!-- Case Study Page -->
+          <section id="case-studies" class="case-studies-section">
+            <div class="container">
+              
+
+              <!-- Project 1: Food Recipe App -->
+              <div class="case-study">
+                <div class="case-study-image">
+                  <img src="./assets/images/Explore Recipes.jpg" alt="Food Recipe App Screenshot" />
+                </div>
+                <div class="case-study-content">
+                  <h2>Food Recipe App</h2>
+                  <p>
+                    A dynamic Food Recipe App where users can search for recipes, view step-by-step instructions, and save their favorite dishes. Focused on responsive design and user experience to make cooking simple and fun.
+                  </p>
+                  <ul>
+                    <li>Search recipes by ingredient or dish name</li>
+                    <li>Save favorites for quick access</li>
+                    <li>Mobile-friendly and responsive design</li>
+                    <li>Interactive and clean UI for better usability</li>
+                    <p style="color: grey;"><i>Under Development</i></p>
+                  </ul>
+                  <a href="#" class="btn">View Project</a>
+                </div>
+              </div>
+
+              <!-- Project 2: Travel Ticket Booking Website -->
+              <div class="case-study reverse">
+                <div class="case-study-image">
+                  <img src="./assets/images/travel_website.png" alt="Travel Ticket Booking Website Screenshot" />
+                </div>
+                <div class="case-study-content">
+                  <h2>Travel Ticket Booking Website</h2>
+                  <p>
+                    A user-friendly platform for booking flights. Supports round-trip, one-way, and multi-city bookings. Designed with responsive layouts to work perfectly on any device.
+                  </p>
+                  <ul>
+                    <li>Multiple booking options: round-trip, one-way, multi-city</li>
+                    <li>Responsive design for all devices</li>
+                    <li>Quick and intuitive navigation</li>
+                    <li>Clean, modern UI for enhanced user experience</li>
+                  </ul>
+                  <a href="https://booking-web-app-ui.vercel.app" class="btn">View Project</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+     <article class="contact" data-page="contact">
+
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
+
+      <!-- Contact info -->
+      <section class="contact-info">
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info-text">
+              <p>Email</p>
+              <a href="mailto:brianwasike504@gmail.com" target="_blank" rel="noopener noreferrer">brianwasike504@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <div class="contact-info-text">
+              <p>Phone</p>
+              <a href="tel:+25472727089530" >+254 727 270 89530</a>
+            </div>
+          </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div class="contact-info-text">
+                <p>LinkedIn</p>
+                <a href="https://www.linkedin.com/in/bryanwasike" target="_blank">linkedin.com/in/bryanwasike</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+              <div class="contact-info-text">
+                <p>GitHub</p>
+                <a href="https://github.com/Bryant-t504" target="_blank">github.com/Bryant-t540</a>
+              </div>
+            </li>
+
+          </ul>
+          <br>
+
+          <!-- Resume download -->
+          <div class="resume-download">
+            <a href="./assets/cv/Brian's_Resume.docx" download class="form-btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </section>
+        <br>
+
+        <!-- Optional contact form -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">Send me a message</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init({
+    publicKey: "c8rBk3X8kXB8CMQv8",
+  });
+</script>
+
+   <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
