@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2022 @codewithbryant
+ * copyright 2025 by BrianWasike.
  */
 
 
@@ -1749,7 +1749,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1400px;
+    max-width: 1200px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -1760,7 +1760,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .main-content {
     min-width: 75%;
     width: 75%;
-    margin: 0 0 0 325px;
+    margin: 0;
   }
 
 
@@ -1770,13 +1770,13 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    position: fixed;
-    left: 100px;
+    position: sticky;
     top: 60px;
-    width: 300px;
     max-height: max-content;
+    height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
+    z-index: 1;
   }
 
   .sidebar-info { flex-direction: column; }
