@@ -1771,7 +1771,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: fixed;
-    left: 12%;
+    left: 0;
     top: 60px;
     width: 300px;
     max-height: max-content;
