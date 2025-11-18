@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2022 @codewithbryant
  */
 
 
@@ -1771,7 +1771,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: fixed;
-    left: 0;
+    left: 12%;
     top: 60px;
     width: 300px;
     max-height: max-content;
